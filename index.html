@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content=" width=device-width,intial-scale=1:0">
+        <title>Task</title>
+        <style>
+           #TT, th, td {
+                border: 1px  white;
+                border-collapse: collapse;
+           }
+           th, td {
+                background-color: #96D4D4;
+            }
+            th {
+                
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            h1{
+                color: blue;
+            }
+            h2{
+                position:relative;
+                left:150px;
+                color:blue
+            }
+            
+            .list{
+                position:relative;
+                left: 150px;
+                width: 300px;
+                border: 1px solid rgba(1, 26, 1, 0.925);
+                padding: 10px;
+                margin: 5px;
+            }
+            #link{
+                width: 600px;
+                border: 1px solid rgba(1, 26, 1, 0.925);
+                padding: 5px;
+                margin: 5px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 >Task 1</h1>
+        <table class="TT">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+
+        <h1 >Task 2</h1>
+                 <div class="list">
+                <p <strong>Lists can be nested(list inside list):</strong></p>
+                <ul id="list">
+                <li> Coffee</li>
+                <li> Tea</li>
+                <ul >
+                    <li>   Black tea</li>
+                    <li>   Green tea</li>
+                </ul>
+                <li>Milk</li>
+            </ul>
+                 </div>
+            <div id="link">
+                <p>Click any of the following links</p>
+                <nav>
+                    <a href="#">Opens in New</a> |<a href="#">Opens in Self</a>|<a href="#">Opens in Parent</a>|<a href="#">Opens in Body</a>
+                </nav>
+            </div>
+
+            
+    </body>
+</html>
+
